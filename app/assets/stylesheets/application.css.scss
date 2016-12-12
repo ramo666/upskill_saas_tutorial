@@ -23,6 +23,9 @@
   font-family: 'Roboto', sans-serif;
  }
  
+ 
+ // navbar style
+ 
 .navbar, .home_callout {
   background: #136a8a; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #136a8a , #267871); /* Chrome 10-25, Safari 5.1-6 */
@@ -31,6 +34,11 @@
 
 .navbar {
   border: none;
+}
+
+.navbar-brand {
+  font-family: Roboto;
+  font-weight: bold;
 }
 
 .navbar .navbar-brand, .navbar-default .navbar-nav > li > a {
