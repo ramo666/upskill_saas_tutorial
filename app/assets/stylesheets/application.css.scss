@@ -38,7 +38,7 @@
 
 .navbar-brand {
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .navbar .navbar-brand, .navbar-default .navbar-nav > li > a {
@@ -48,6 +48,20 @@
     opacity: 0.75;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: solid white 2px;
+  &:hover, &:focus {
+    background-color: #267871;
+
+  }
+}
+
+//home page style
 
 .home_callout {
   color: white;
